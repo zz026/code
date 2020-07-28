@@ -30,6 +30,7 @@ ul.addEventListener('click', function(e) {
 		myPush,
 		myPop,
 		myShift,
+		myUnshift,
 		myConcat,
 	}
 	obj[li.innerText].log && obj[li.innerText].log()
